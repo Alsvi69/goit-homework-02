@@ -27,10 +27,11 @@ button {
 .list {
   list-style: none;
 }
-
-/*Header style*/
 .header-logo {
   text-decoration: none;
+}
+/*Header style*/
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
