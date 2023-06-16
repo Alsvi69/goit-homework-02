@@ -50,7 +50,7 @@ button {
   text-transform: uppercase;
   color: var(--title-color);
 }
-.nav-list-item {
+.header-nav .link {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -58,19 +58,14 @@ button {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
-.nav-list-item:hover,
-.nav-list-item:focus {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.header-nav .link:hover,
+.header-nav .link:focus {
   color: #404bbf;
 }
 .address {
   font-style: normal;
 }
-.addres-list-item {
+.address .link {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -78,15 +73,11 @@ button {
   letter-spacing: 0.02em;
   color: var(--paragraph-color);
 }
-.addres-list-item:hover,
-.addres-list-item:focus {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.address .link:hover,
+.address .link:focus {
   color: #404bbf;
 }
+
 /*Main style*/
 
 /*Hero*/
@@ -153,8 +144,10 @@ button {
 .products-item {
 }
 /*Team*/
-.team .list {
-  background-color: #ffffff;
+.team {
+  background-color: #f4f4fd;
+}
+.team-list {
 }
 .team-title {
   font-style: normal;
@@ -167,6 +160,7 @@ button {
   color: var(--title-color);
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-member-name {
   font-style: normal;
