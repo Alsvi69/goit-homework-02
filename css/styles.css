@@ -1,7 +1,6 @@
 /*Common styles*/
 :root {
   --logo-color: #4d5ae5;
-  --logo-header-color: #2e2f42;
   --logo-footer-color: #f4f4fd;
   --paragraph-color: #434455;
   --title-color: #2e2f42;
@@ -49,7 +48,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--logo-header-color);
+  color: var(--title-color);
 }
 .nav-list-item {
   font-style: normal;
@@ -57,7 +56,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--logo-header-color);
+  color: var(--title-color);
 }
 .nav-list-item:hover,
 .nav-list-item:focus {
@@ -66,12 +65,10 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--logo-color);
+  color: #404bbf;
 }
-.addres {
+.address {
   font-style: normal;
-}
-.addres-list {
 }
 .addres-list-item {
   font-style: normal;
@@ -79,7 +76,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--logo-header-color);
+  color: var(--paragraph-color);
 }
 .addres-list-item:hover,
 .addres-list-item:focus {
@@ -94,7 +91,7 @@ button {
 
 /*Hero*/
 .hero-section {
-  background-color: var(--logo-header-color);
+  background-color: var(--title-color);
 }
 .hero-title {
   font-style: normal;
@@ -110,7 +107,6 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: var(--logo-color);
@@ -130,7 +126,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--logo-header-color);
+  color: var(--title-color);
 }
 .feature-text {
   font-size: 16px;
@@ -157,8 +153,8 @@ button {
 .products-item {
 }
 /*Team*/
-.team {
-  background-color: #f4f4fd;
+.team .list {
+  background-color: #ffffff;
 }
 .team-title {
   font-style: normal;
@@ -179,7 +175,7 @@ button {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--logo-header-color);
+  color: var(--title-color);
 }
 .team-member-profession {
   font-style: normal;
@@ -191,7 +187,7 @@ button {
 }
 /*Footer*/
 .footer-background {
-  background-color: var(--logo-header-color);
+  background-color: var(--title-color);
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -250,12 +246,12 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--logo-header-color);
+  color: var(--title-color);
 }
 .card-text {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--paragraph-color);
 }
