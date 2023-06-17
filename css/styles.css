@@ -15,7 +15,6 @@ ul {
   list-style: none;
 }
 a {
-  /* text-decoration: none; */
   color: currentColor;
 }
 button {
@@ -49,7 +48,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  /* color: var(--logo-color); */
 }
 
 .header-nav .link:hover,
