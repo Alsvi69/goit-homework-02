@@ -1,22 +1,19 @@
 /*Common styles*/
 :root {
   --logo-color: #4d5ae5;
+  --dark-blue-color: #404bbf;
   --logo-footer-color: #f4f4fd;
   --paragraph-color: #434455;
   --title-color: #2e2f42;
+  --background-color-white: #ffffff;
 }
 body {
   font-family: Roboto, sans-serif;
-  background-color: #ffffff;
+  background-color: var(--background-color-white);
   color: var(--paragraph-color);
 }
 /*Reset*/
-ul {
-  list-style: none;
-}
-a {
-  color: currentColor;
-}
+
 button {
   cursor: pointer;
 }
@@ -30,7 +27,6 @@ button {
 /*Header style*/
 .header-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -42,20 +38,19 @@ button {
   color: var(--title-color);
 }
 .header-nav {
-  font-style: normal;
+}
+.header-nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
-
-.header-nav .link:hover,
-.header-nav .link:focus {
-  color: #404bbf;
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--dark-blue-color);
 }
 .address {
-  font-style: normal;
 }
 .address .link {
   font-style: normal;
@@ -67,7 +62,7 @@ button {
 }
 .address .link:hover,
 .address .link:focus {
-  color: #404bbf;
+  color: var(--dark-blue-color);
 }
 
 /*Main style*/
@@ -77,26 +72,24 @@ button {
   background-color: var(--title-color);
 }
 .hero-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--background-color-white);
 }
 .hero-button {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--background-color-white);
   background-color: var(--logo-color);
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--dark-blue-color);
 }
 /*Features*/
 .features-section {
@@ -104,7 +97,6 @@ button {
 .features-item {
 }
 .features-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -119,10 +111,9 @@ button {
 }
 /*Products*/
 .products .list {
-  background-color: #ffffff;
+  background-color: var(--background-color-white);
 }
 .products-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -137,12 +128,11 @@ button {
 }
 /*Team*/
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--logo-footer-color);
 }
 .team-list {
 }
 .team-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -152,10 +142,9 @@ button {
   color: var(--title-color);
 }
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--background-color-white);
 }
 .team-member-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -164,12 +153,11 @@ button {
   color: var(--title-color);
 }
 .team-member-profession {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--paragraph-color);
 }
 /*Footer*/
 .footer-background {
@@ -177,7 +165,6 @@ button {
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -187,7 +174,6 @@ button {
 }
 .footer-logo-accent {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -197,7 +183,6 @@ button {
   flex: none;
 }
 .footer-text {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -206,28 +191,20 @@ button {
 /*Portfolio page*/
 /*Main*/
 .btn-pf {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--logo-color);
-  background-color: #f4f4fd;
+  background-color: var(--logo-footer-color);
 }
 .btn-pf:hover,
 .btn-pf:focus {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--background-color-white);
+  background-color: var(--dark-blue-color);
 }
 .card-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -235,7 +212,6 @@ button {
   color: var(--title-color);
 }
 .card-text {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
